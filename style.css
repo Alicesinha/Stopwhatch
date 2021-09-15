@@ -1,5 +1,17 @@
-
+body{
+   background-color: rgb(2, 0, 0);
+}
 #container{
    text-align: center;
+   margin: auto;
+   background-color: rgb(3, 66, 184);
+   max-width: 300px;
+   padding: 25px;
+   border-radius: 15px;
+   margin-top: 50px;
 }
-  
+#h1{
+   font-family: 'Major Mono Display', sans-serif;
+   background-color: rgb(253, 253, 253);
+   border-radius: 10px;
+}
