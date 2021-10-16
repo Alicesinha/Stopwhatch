@@ -2,7 +2,7 @@
 
 ## 💻 Sobre o projeto
 
-⏱ Stopwhatch - é uma aplicação projetada para medir a quantidade de tempo que decorre entre sua ativação e desativação
+⏱ Stopwhatch - é uma aplicação projetada para medir a quantidade de tempo que decorre entre sua ativação e desativação.
 
 https://william-dias-marcos.github.io/Stopwhatch/
 
