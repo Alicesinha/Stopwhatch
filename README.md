@@ -18,7 +18,9 @@ https://william-dias-marcos.github.io/Stopwhatch/
 
 ## 📱 Layout da Aplicação
 
-adicionar o gif e imagens
+<p text  align="center">
+<img width="400" src= "https://github.com/William-Dias-Marcos/Stopwhatch/blob/master/to_readme/Stopwhatch.jpg"> 
+</p>
 
 ---
 
