@@ -1,17 +1,71 @@
-body{
-   background-color: rgb(2, 0, 0);
+@media (max-width: 975px) {
+  body {
+    background-color: rgb(2, 0, 0);
+  }
+  #container {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(3, 66, 184);
+    max-width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+  .button {
+    border-radius: 0.5em;
+    font-family: "Source Code Pro", monospace;
+    cursor: pointer;
+    margin: 0 0.8em;
+    padding: 1em;
+    background-color: rgb(3, 66, 184);
+    color: white;
+    border: 0;
+    text-shadow: 2px 2px 2px rgb(0, 255, 255);
+    box-shadow: 2px 2px 0 1px black;
+  }
+  .button:active {
+    box-shadow: 0 0 0 0 black, inset 1px 1px 1px 2px black;
+    transform: translate(1.5px, 1.5px);
+  }
+  #h1 {
+    font-family: "Major Mono Display", sans-serif;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+  }
 }
-#container{
-   text-align: center;
-   margin: auto;
-   background-color: rgb(3, 66, 184);
-   max-width: 300px;
-   padding: 25px;
-   border-radius: 15px;
-   margin-top: 50px;
-}
-#h1{
-   font-family: 'Major Mono Display', sans-serif;
-   background-color: rgb(253, 253, 253);
-   border-radius: 10px;
+
+@media (min-width: 976px) {
+  body {
+    background-color: rgb(2, 0, 0);
+  }
+  .button {
+    border-radius: 0.5em;
+    font-family: "Source Code Pro", monospace;
+    cursor: pointer;
+    margin: 0 2em;
+    padding: 1em;
+    background-color: rgb(3, 66, 184);
+    color: white;
+    border: 0;
+    text-shadow: 2px 2px 2px rgb(0, 255, 255);
+    box-shadow: 2px 2px 0 1px black;
+  }
+  .button:active {
+    box-shadow: 0 0 0 0 black, inset 1px 1px 1px 2px black;
+    transform: translate(1.5px, 1.5px);
+  }
+  #container {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(3, 66, 184);
+    max-width: 40%;
+    padding: 45px;
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+  #h1 {
+    font-family: "Major Mono Display", sans-serif;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+  }
 }
